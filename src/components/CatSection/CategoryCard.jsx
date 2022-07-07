@@ -13,6 +13,7 @@ const CategoryCard = ({ category }) => {
         <div className="category_media">
           <img width="350px" src={category.assets[0]?.url} alt="oke" />
         </div>
+        
         <div className="see_more">
           <a href={`/category/${category.id}`}>See more</a>
         </div>
